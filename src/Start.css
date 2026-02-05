@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'skyrim'; 
+  src: url('../font/s.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
+html{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw; 
+  height: 100vh; 
+}
+
+img{
+  display:flex;
+  width: 350px;
+}
+
+img:hover{
+  cursor:pointer;
+}
+
+.intro-t{
+  color:white;
+}
+
+.percy-body{
+  display:flex;
+  flex-direction: column;
+  gap:0px;
+}
+
+.textBubble{
+  display:flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+
+}
+
+.dialogue{
+  background-color: rgb(255, 163, 163);
+  border-radius: 20px;
+  border: 2px solid white;
+  padding:10px;
+  font-family:'skyrim';
+  font-size: 25px;
+  width: 500px;
+  height: fit-content;
+}
+
+
+.fullScene{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; 
+  height: 100vh; 
+  background-image: url("../img/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.text-button{
+  padding:10px;
+  width:100px;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border:2px solid rgb(255, 163, 163);
+  background: rgb(202, 202, 202);
+  font-family:'skyrim';
+}
+
+.text-button:hover{
+  padding:10px;
+  width:100px;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border:2px solid rgb(255, 163, 163);
+  background: rgb(255, 255, 255);
+  font-family:'skyrim';
+  cursor:pointer;
+}
+
+
+.fade-in {
+  color: white;
+  font-family:'skyrim';
+  font-size: 50px;
+  background-image: radial-gradient( black, rgba(0, 0, 0, 0.01));
+  animation: fadeIn 2s ease-in;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.button-row{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  align-items: center;
+  height:fit-content;
+  margin-top: 0px;
+}
+
+
+.heart-row{
+  display: flex;
+  flex-direction: row;
+  gap:90px;
+  align-items: center;
+  height:fit-content;
+  margin-top: 0px;
+}
+.letter{
+    background-image: url("../img/letter.png");
+    background-size: contain; /* or cover */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature{
+  font-family: 'skyrim', sans-serif;
+  color:black;
+  font-size: 40px;
+  white-space: pre;
+
+}
+.letter-text{
+  font-family: 'skyrim', sans-serif;
+  color:black;
+  font-size: 20px;
+}
+
+.small-hand{
+  margin-left: 20px;
+  max-width: 20%;
+  height: auto;  
+}
+
+.left{
+  display: flex;
+  text-align: left;
+  width:30%;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  flex-direction: column;
+  text-wrap: pretty;
+}
+
+
+.question{
+  font-family: 'skyrim', sans-serif;
+  color:black;
+  font-size: 40px;
+  white-space: pre;
+  margin:30px;
+}
+
+.box{
+  font-size: 40px;
+  color:black;
+  font-family: 'skyrim';
+  cursor:pointer;
+}
+
+.small-percy{
+  width:100px;
+
+}
+
+.photo{
+  width:600px;
+}
+
+.final{
+  background-image: radial-gradient( rgba(255, 0, 0, 0.5), rgb(0, 0, 0));
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw; 
+  height: 100vh; 
+  flex-direction: column;
+}
+
+.small{
+  width:200px;
+  height:auto;
+}
