@@ -24,7 +24,7 @@ function Question({setState}) {
                 <p className = 'signature'>Dear Anna</p>
         </div>
         <div className = 'left'>
-            <p className = 'letter-text'>My apologies for the delay, I just received word via messenger pigeon that you do not have a Valentine ! It is a cruel injustice that THEE Anna Jung has nobody to share that special day with! For someone as talented as a level 80 khajit such as yourself, and for someone whose love I have felt dearly in every moment we've shared, this should be a more than settled arrangement! I bestowed Perceus the wise to deliver you this official letter ASAP and made up some lie called the 'elder bowl' for him to do so, but my offer is as follows: </p>
+            <p className = 'letter-text'>My apologies for the delay, I just received word via messenger pigeon that you do not have a Valentine ! It is a cruel injustice that THEE Anna Jung has nobody to share that special day with! For someone as talented as a level 80 khajit such as yourself, and for someone whose love I have felt dearly in every moment we've shared, it is a quite a shame that this has not been previously established! I bestowed Perceus the wise to deliver you this official letter ASAP and made up some lie called the 'elder bowl' for him to do so, but my inquiry is as follows: </p>
         </div>
         <p className = 'question'> Anna: WILL YOU BE MY VALENTINE ?</p>
         <div className = 'button-row'>
